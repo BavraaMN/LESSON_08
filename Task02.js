@@ -1,4 +1,5 @@
-    function GetRandom(mytotalitem,m,n)
+{
+        function GetRandom(mytotalitem,m,n)
    {
      let athletes = new Array(mytotalitem); 
 
@@ -29,4 +30,4 @@
 
 
    console.log(GetRandom(totalitem2,m-1,n));     
- 
+    }

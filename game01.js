@@ -1,4 +1,4 @@
-
+{
     const closecommand='отмена'; 
     let enteredcommand='';
     let myrandom=-1;
@@ -42,3 +42,4 @@
                
      } 
    while (true)
+ }

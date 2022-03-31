@@ -1,19 +1,19 @@
-
+{
     const closecommand='отмена'; 
     let enteredcommand='';
     let myrandom=-1;
-    const array=[];
+    let array=[];
     let reqtotalattempt=-1;
     let counter=0; 
     do
     {      
-        if (myrandom==-1) 
+        if (myrandom==-1) // новый старт или сессия уже закончилась 
         {
 
-            let m = Number(prompt("Первый интервал  ?", ""));
+            let m = Number(prompt("Начинаем Первый интервал  ?", ""));
             console.log('Первый интервал  ?: ', m);
             
-            let n = Number(prompt("Второй интервал  ?", ""));
+            let n = Number(prompt("Начинаем Второй интервал  ?", ""));
             console.log('Второй интервал  ?: ', n);
             
               if ( m > n )       //Если значение n больше чем m меняем значение нам это достаточно
@@ -38,8 +38,8 @@
            }
 
            console.log(' Всего шанс '+reqtotalattempt); 
-           alert(' ЗВсего шанс '+reqtotalattempt) ;      
-
+           alert(' Всего шанс '+reqtotalattempt) ;      
+           array=[];
 
            myrandom=Math.floor((Math.random() * (n - m) + m) + 1);  //cлучайное число в этом диапазоне между m и n
            console.log(' Загадка число '+myrandom); 
@@ -100,3 +100,4 @@
                
      } 
    while (true)
+}

@@ -1,4 +1,5 @@
-function GetRandom(mytotalitem)
+{
+  function GetRandom(mytotalitem)
 {
 
    let athletes = new Array(mytotalitem); 
@@ -21,3 +22,4 @@ if (!isNaN(totalitem))
  {
    console.log('Ошибка !!!! Должен бить целый числа  ');
  }
+}

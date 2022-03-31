@@ -1,3 +1,4 @@
+{
 let m = Number(prompt("Первый интервал  ?", ""));
 console.log('Первый интервал  ?: ', m);
 
@@ -20,5 +21,6 @@ console.log('Второй интервал  ?: ', n);
      }
   }
    console.log(array);
+}
 
 

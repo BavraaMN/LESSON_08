@@ -1,4 +1,4 @@
-
+{
     /* функция добовление или удаление +1 -1 " */
 
    function get_even_or_odd_data(m,n,mydata)
@@ -80,4 +80,5 @@
 
   
     console.log(GetRandom(totalitem2,m-1,n,even_or_add));     
+}
    
